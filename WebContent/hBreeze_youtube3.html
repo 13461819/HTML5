@@ -263,8 +263,8 @@ $(window).resize(accordion_resize);
 					</div>
 					<footer>
 						<p class="text-info" id="description">섹션의 푸터</p>
-						<button onclick="downloadAll(['https://storage.googleapis.com/hbreeze4ani.appspot.com/videos/ko/b/b0003abko.wvm',
-						                              'https://storage.googleapis.com/hbreeze4ani.appspot.com/videos/ko/b/b0158aako.wvm'])">모두 다운로드</button>
+						<button onclick="downloadAll(['https://storage.googleapis.com/hbreeze4ani.appspot.com/videos/ko/b/b0003abko.wvm'
+						                              ,'https://storage.googleapis.com/hbreeze4ani.appspot.com/videos/ko/b/b0158aako.wvm'])">모두 다운로드</button>
 					</footer>
 				</section>
 			</div>
@@ -279,10 +279,12 @@ $(window).resize(accordion_resize);
 		document.body.appendChild(link);
 		
 		for (var i = 0; i < urls.length; i++) {
-			link.setAttribute('download', urls[i].substr(67));
-			link.setAttribute('href', urls[i]);
-			console.log("urls[i] : " + urls[i]);
-			link.click();
+			setTimeout(function(url) {
+				link.setAttribute('download', url.substr(67));
+				link.setAttribute('href', url);
+				console.log("url : " + url);
+				link.click();
+			}, i * 1000, urls[i]);
 		}
 		
 		document.body.removeChild(link);
