@@ -1,0 +1,13 @@
+<option>성격에 맞는 카데고리를 선택해주세요.</option>
+<option>근골격계</option>
+<option>내과계 질병</option>
+<option>비뇨기과</option>
+<option>산부인과</option>
+<option>신장내과</option>
+<option>안과</option>
+<option>외과계 질병</option>
+<option>이비인후과(질병)</option>
+<option>일반외과</option>
+<option>종양 (암)</option>
+<option>척추 및 신경</option>
+<option>피부미용성형</option>

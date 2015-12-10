@@ -1,0 +1,29 @@
+.arrow {
+	height: 25px;
+	width: 25px;
+	margin-top: -3px;
+	margin-bottom: -5px;
+	margin-left: 6px;
+	margin-right: 5px;
+	float: left;
+}
+.label-as-badge {
+	border-radius: 1em;
+	margin-left: 15px;
+}
+
+a.list-group-item{
+	padding: 0px;
+}
+
+.panel-heading {
+	background-color: rgb(245, 245, 245);
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.glyphicon.glyphicon-play-circle {
+	float: right;
+	font-size: 2em;
+	margin-top: -4px;
+}

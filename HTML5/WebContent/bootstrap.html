@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+<link rel="stylesheet" href="../CSS/bootstrap-combobox.css" />
+<script src="../JavaScript/jquery-2.1.4.min.js"></script>
+<script src="../JavaScript/bootstrap.min.js"></script>
+<script src="../JavaScript/bootstrap-combobox.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.combobox').combobox()
+	});
+</script>
+<style type="text/css">
+table {
+	text-align: center;
+	font-size: 12pt;
+}
+
+th {
+	text-align: center;
+	background-color: RGB(233, 233, 233);
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="col-md-12">
+			<div class="page-header">
+				<h1>
+					Hi-Chart 서비스 <small>처방 / TV</small>
+				</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-7">
+				<ul class="nav nav-tabs">
+					<li class="active"><a data-toggle="tab" href="#personal_list">개인
+							목록</a></li>
+					<li><a data-toggle="tab" href="#search">검색</a></li>
+				</ul>
+				<div class="tab-content">
+					<div id="personal_list" class="tab-pane fade in active">
+						<table class="table table-hover">
+							<thead id="table_head">
+								<tr>
+									<th style="width: 15%;">코드</th>
+									<th style="width: 60%;">콘텐츠명</th>
+									<th style="width: 10%;">편성</th>
+									<th style="width: 15%;">상영시간</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>용의자 X의 헌신</td>
+									<td><button type="button" class="btn btn-success btn-sm">편성</button></td>
+									<td>9:33</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>나미야 잡화접의 기적</td>
+									<td><button type="button" class="btn btn-success btn-sm">편성</button></td>
+									<td>5:42</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>성녀의 구제</td>
+									<td><button type="button" class="btn btn-success btn-sm">편성</button></td>
+									<td>3:24</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>한여름의 방정식</td>
+									<td><button type="button" class="btn btn-success btn-sm">편성</button></td>
+									<td>1:23</td>
+								</tr>
+								<tr>
+									<td>5</td>
+									<td>예지몽</td>
+									<td><button type="button" class="btn btn-success btn-sm">편성</button></td>
+									<td>6:42</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td>갈릴레오의 고뇌</td>
+									<td><button type="button" class="btn btn-success btn-sm">편성</button></td>
+									<td>5:55</td>
+								</tr>
+								<tr>
+									<td>7</td>
+									<td>탐정 갈릴레오</td>
+									<td><button type="button" class="btn btn-success btn-sm">편성</button></td>
+									<td>3:35</td>
+								</tr>
+								<tr>
+									<td>8</td>
+									<td>명탐정의 규칙</td>
+									<td><button type="button" class="btn btn-success btn-sm">편성</button></td>
+									<td>9:02</td>
+								</tr>
+							</tbody>
+
+						</table>
+					</div>
+
+					<div id="search" class="tab-pane fade">
+						<table class="table">
+							<tr>
+								<td width="15%">분류</td>
+								<td width="85%"><div class="form-inline">
+										<div class="form-group">
+											<select id="first_choice" class="form-control">
+												<option selected="selected" value="전체">전체</option>
+												<option value="wlf">질병</option>
+												<option value="rja">검사</option>
+												<option value="cj">처치/시술/수술</option>
+												<option value="dlq">입/퇴원 교육</option>
+												<option value="gks">한방</option>
+												<option value="cl">치과</option>
+												<option value="rl">기타</option>
+											</select>
+										</div>
+										<div class="form-group">
+											<select id="second_choice" size="7"
+												class="combobox form-control" name="inline"
+												style="height: 100%;">
+												<option value="" selected="selected">성격에 맞는 카데고리를
+													선택해주세요.</option>
+												<option>검체검사</option>
+												<option>구강내과</option>
+												<option>구강병리과</option>
+												<option>구강악안면 방사선과</option>
+												<option>구강악안면외과</option>
+												<option>구강외과</option>
+												<option>국민건강보험공간 건강검진</option>
+												<option>근골격계</option>
+												<option>기타 시술</option>
+												<option>기타</option>
+												<option>기타교육</option>
+												<option>내과계 검사</option>
+												<option>내과계 질병</option>
+												<option>내과계 처치</option>
+												<option>내시경 검사</option>
+												<option>내시경 처치</option>
+												<option>마취통증의학과</option>
+												<option>미분류</option>
+												<option>방사선종양학과</option>
+												<option>부인과</option>
+												<option>비뇨기계 검사</option>
+												<option>비뇨기과</option>
+												<option>비뇨기과</option>
+												<option>산과</option>
+												<option>산부인과</option>
+												<option>산부인과</option>
+												<option>서비스</option>
+												<option>설문지</option>
+												<option>세포/조직검사</option>
+												<option>소아치과</option>
+												<option>수혈관련</option>
+												<option>식이교육</option>
+												<option>신경외과</option>
+												<option>신장내과</option>
+												<option>안과</option>
+												<option>안과</option>
+												<option>안과</option>
+												<option>암 관련정보</option>
+												<option>영상의학과</option>
+												<option>예방접종</option>
+												<option>외과계 검사</option>
+												<option>외과계 질병</option>
+												<option>외과계 처치</option>
+												<option>운동_물리치료</option>
+												<option>원무안내</option>
+												<option>유전/분자진단검사</option>
+												<option>응급실 입퇴원교육</option>
+												<option>이비인후과(질병)</option>
+												<option>이비인후과(처치/시술/수술)</option>
+												<option>일반외과</option>
+												<option>일반외과</option>
+												<option>입원 간호교육</option>
+												<option>재활의학과</option>
+												<option>정형외과</option>
+												<option>종양 (암)</option>
+												<option>척추 및 디스크</option>
+												<option>척추 및 신경</option>
+												<option>치과 일반</option>
+												<option>치과교정과</option>
+												<option>치과마취과</option>
+												<option>치과보존과</option>
+												<option>치과보철과</option>
+												<option>치주과</option>
+												<option>퇴원 간호교육</option>
+												<option>투약설명</option>
+												<option>피부미용성형</option>
+												<option>피부미용성형</option>
+												<option>하이차트QR</option>
+												<option>핵의학 검사</option>
+												<option>핵의학과</option>
+												<option>혈관 내 도관삽입</option>
+												<option>흉부외과</option>
+												<option>Global</option>
+												<option>HospitalCF</option>
+												<option>M Promotion</option>
+											</select>
+										</div>
+									</div></td>
+							</tr>
+							<tr>
+								<td width="15%">제목검색</td>
+								<td width="85%"></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-5"></div>
+		</div>
+	</div>
+</body>
+</html>

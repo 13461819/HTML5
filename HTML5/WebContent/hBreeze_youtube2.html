@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="../CSS/hBreeze.css" />
+<script src="../JavaScript/hBreeze.js"></script>
+<script src="../JavaScript/jquery-2.1.4.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript"></script>
+</head>
+<body style="height: 100%;">
+	<div class="container" style="height: 100%">
+		<header>
+			<img alt="Welcome Health Breeze!" src="../image/hBreeze.png"
+				class="img-responsive">
+		</header>
+		<div class="row" style="height: 50%">
+			<div class="col-md-4" style="height: 100%">
+				<nav style="height: 100%;">
+					<div style="height: 100%; min-height: 319px;">
+						<h4>My Lists</h4>
+						<div class="panel-group" id="accordion"
+							style="height: 100%; background-color: rgb(251, 251, 251); overflow: auto; overflow-x: hidden">
+							<div class="panel panel-default">
+
+								<div class="panel-heading">
+									<span class="panel-title"margin-top: 8px;> <a
+										data-toggle="collapse" data-parent="#accordion"
+										href="#collapse1"> <img src="../image/arrow.png"
+											class="arrow img-responsive">아이유 신곡<span
+											class="label label-default label-as-badge">3</span>
+									</a>
+									</span> <a href="#" title="목록 재생"
+										onclick="loadYouTubeList(['42Gtm4-Ax2U', 'Dtt0Gp78uuE', 'b3luWd_390o'])"><span
+										class="glyphicon glyphicon-play-circle"></span></a>
+								</div>
+
+								<div id="collapse1" class="panel-collapse collapse">
+									<div class="list-group">
+										<a href="#" class="list-group-item"
+											onclick="loadYouTube('타이틀','설명', '42Gtm4-Ax2U')">
+											<div class="row">
+												<div class="col-sm-4">
+													<img src="../image/23.png" class="img-responsive">
+												</div>
+												<div class="col-sm-8">
+													<div class="row">IU(아이유) Twenty-three(스물셋)</div>
+													<div class="row">
+														<div class="col-xs-4">3:54</div>
+														<div class="col-xs-8">2015/11/5</div>
+													</div>
+												</div>
+											</div>
+										</a> <a href="#" class="list-group-item"
+											onclick="loadYouTube('타이틀','설명', 'Dtt0Gp78uuE')"><div
+												class="row">
+												<div class="col-sm-4">
+													<img src="../image/shower.png" class="img-responsive">
+												</div>
+												<div class="col-sm-8">
+													<div class="row">IU(아이유) The shower(푸르던)</div>
+													<div class="row">
+														<div class="col-xs-4">0:52</div>
+														<div class="col-xs-8">2015/11/5</div>
+													</div>
+												</div>
+											</div></a> <a href="#" class="list-group-item"
+											onclick="loadYouTube('타이틀','설명', 'b3luWd_390o')"><div
+												class="row">
+												<div class="col-sm-4">
+													<img src="../image/red_queen.png" class="img-responsive">
+												</div>
+												<div class="col-sm-8">
+													<div class="row">IU(아이유) Red Queen (Feat. Zion.T)</div>
+													<div class="row">
+														<div class="col-xs-4">3:32</div>
+														<div class="col-xs-8">2015/11/5</div>
+													</div>
+												</div>
+											</div></a>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<span class="panel-title"margin-top: 8px;"> <a
+										data-toggle="collapse" data-parent="#accordion"
+										href="#collapse2"> <img src="../image/arrow.png"
+											class="arrow img-responsive">M.C. the MAX! 신곡<span
+											class="label label-default label-as-badge">4</span>
+									</a>
+									</span> <a href="#" title="목록 재생"><span
+										class="glyphicon glyphicon-play-circle"></span></a>
+								</div>
+								<div id="collapse2" class="panel-collapse collapse">
+									<div class="list-group">
+										<a href="#" class="list-group-item">First item</a> <a href="#"
+											class="list-group-item">Second item</a> <a href="#"
+											class="list-group-item">Third item</a>
+
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<span class="panel-title"margin-top: 8px;"> <a
+										data-toggle="collapse" data-parent="#accordion"
+										href="#collapse3"> <img src="../image/arrow.png"
+											class="arrow img-responsive">김경호 신곡<span
+											class="label label-default label-as-badge">2</span>
+									</a>
+									</span> <a href="#" title="목록 재생"><span
+										class="glyphicon glyphicon-play-circle"></span></a>
+								</div>
+								<div id="collapse3" class="panel-collapse collapse">
+									<div class="list-group">
+										<a href="#" class="list-group-item">First item</a> <a href="#"
+											class="list-group-item">Second item</a> <a href="#"
+											class="list-group-item">Third item</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="col-md-8">
+				<section>
+					<header>
+						<h4 id="title">[대한심장학회] 관상동맥질환의 개념과 치료</h4>
+					</header>
+					<div class="embed-responsive embed-responsive-16by9"
+						style="margin-top: 10px;">
+						<div class="iframe-rwd">
+							<!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+							<div class="video" id="player"></div>
+						</div>
+					</div>
+					<footer>
+						<p class="text-info" id="description">[ CODE : a0056aako ] -
+							관상동맥질환이란? - 관상동맥질환의 치료</p>
+					</footer>
+				</section>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

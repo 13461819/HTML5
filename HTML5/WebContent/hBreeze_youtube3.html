@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="../CSS/hBreeze.css" />
+<script src="../JavaScript/hBreeze.js"></script>
+<script src="../JavaScript/jquery-2.1.4.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript"></script>
+<script type="text/javascript">
+
+$(function () {
+	accordion_resize();
+});
+$(window).resize(accordion_resize);
+
+</script>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<img alt="Welcome Health Breeze!" src="../image/hBreeze.png" id="banner"
+				class="img-responsive">
+		</header>
+		<div class="row" id="main_body">
+			<div class="col-md-4">
+				<nav>
+					<h4>My Lists</h4>
+					<div class="panel-group" id="accordion"
+						style="min-height: 300px; background-color: rgb(251, 251, 251); overflow: auto; overflow-x: hidden">
+						<div class="panel panel-default">
+
+							<div class="panel-heading" style="margin-bottom: -5px;">
+								<span class="panel-title" style="margin-top: 8px;"> <a
+									data-toggle="collapse" data-parent="#accordion"
+									href="#collapse1"> <img src="../image/arrow.png"
+										class="arrow img-responsive">아이유 신곡<span
+										class="label label-default label-as-badge">3</span>
+								</a>
+								</span> <a href="#" title="목록 재생"
+									onclick="loadYouTube('아이유 신곡', ['스물셋','푸르던','레드퀸'], ['42Gtm4-Ax2U', 'Dtt0Gp78uuE', 'b3luWd_390o'])"><span
+									class="glyphicon glyphicon-play-circle"></span></a>
+							</div>
+
+							<div id="collapse1" class="panel-collapse collapse">
+								<div class="list-group">
+									<a href="#" class="list-group-item"
+										onclick="loadYouTube('스물셋','아이유의 스물셋이다.', '42Gtm4-Ax2U')">
+										<div class="row">
+											<div class="col-sm-4">
+												<img src="../image/23.png" class="img-responsive">
+											</div>
+											<div class="col-sm-8">
+												<div class="row">
+													<div class="col-xs-6">
+														<div class="row">IU(아이유) Twenty-three(스물셋)</div>
+														<div class="row">
+															<div class="col-xs-4">3:54</div>
+															<div class="col-xs-8">2015/11/5</div>
+														</div>
+													</div>
+													<div class="col-xs-6">
+														sdfsd
+													</div>
+												</div>
+											</div>
+										</div>
+									</a> <a href="#" class="list-group-item"
+										onclick="loadYouTube('푸르던','아이유의 푸르던이다.', 'Dtt0Gp78uuE')"><div
+											class="row">
+											<div class="col-sm-4">
+												<img src="../image/shower.png" class="img-responsive">
+											</div>
+											<div class="col-sm-8">
+												<div class="row">IU(아이유) The shower(푸르던)</div>
+												<div class="row">
+													<div class="col-xs-4">0:52</div>
+													<div class="col-xs-8">2015/11/5</div>
+												</div>
+											</div>
+										</div></a> <a href="#" class="list-group-item"
+										onclick="loadYouTube('레드퀸','아이유의 레드퀸이다.', 'b3luWd_390o')"><div
+											class="row">
+											<div class="col-sm-4">
+												<img src="../image/red_queen.png" class="img-responsive">
+											</div>
+											<div class="col-sm-8">
+												<div class="row">IU(아이유) Red Queen (Feat. Zion.T)</div>
+												<div class="row">
+													<div class="col-xs-4">3:32</div>
+													<div class="col-xs-8">2015/11/5</div>
+												</div>
+											</div>
+										</div></a>
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										<a href="#" class="list-group-item"
+										onclick="loadYouTube('타이틀','설명', '42Gtm4-Ax2U')">
+										<div class="row">
+											<div class="col-sm-4">
+												<img src="../image/23.png" class="img-responsive">
+											</div>
+											<div class="col-sm-8">
+												<div class="row">IU(아이유) Twenty-three(스물셋)</div>
+												<div class="row">
+													<div class="col-xs-4">3:54</div>
+													<div class="col-xs-8">2015/11/5</div>
+												</div>
+											</div>
+										</div>
+									</a> <a href="#" class="list-group-item"
+										onclick="loadYouTube('타이틀','설명', 'Dtt0Gp78uuE')"><div
+											class="row">
+											<div class="col-sm-4">
+												<img src="../image/shower.png" class="img-responsive">
+											</div>
+											<div class="col-sm-8">
+												<div class="row">IU(아이유) The shower(푸르던)</div>
+												<div class="row">
+													<div class="col-xs-4">0:52</div>
+													<div class="col-xs-8">2015/11/5</div>
+												</div>
+											</div>
+										</div></a> <a href="#" class="list-group-item"
+										onclick="loadYouTube('타이틀','설명', 'b3luWd_390o')"><div
+											class="row">
+											<div class="col-sm-4">
+												<img src="../image/red_queen.png" class="img-responsive">
+											</div>
+											<div class="col-sm-8">
+												<div class="row">IU(아이유) Red Queen (Feat. Zion.T)</div>
+												<div class="row">
+													<div class="col-xs-4">3:32</div>
+													<div class="col-xs-8">2015/11/5</div>
+												</div>
+											</div>
+										</div></a><a href="#" class="list-group-item"
+										onclick="loadYouTube('타이틀','설명', '42Gtm4-Ax2U')">
+										<div class="row">
+											<div class="col-sm-4">
+												<img src="../image/23.png" class="img-responsive">
+											</div>
+											<div class="col-sm-8">
+												<div class="row">IU(아이유) Twenty-three(스물셋)</div>
+												<div class="row">
+													<div class="col-xs-4">3:54</div>
+													<div class="col-xs-8">2015/11/5</div>
+												</div>
+											</div>
+										</div>
+									</a> <a href="#" class="list-group-item"
+										onclick="loadYouTube('타이틀','설명', 'Dtt0Gp78uuE')"><div
+											class="row">
+											<div class="col-sm-4">
+												<img src="../image/shower.png" class="img-responsive">
+											</div>
+											<div class="col-sm-8">
+												<div class="row">IU(아이유) The shower(푸르던)</div>
+												<div class="row">
+													<div class="col-xs-4">0:52</div>
+													<div class="col-xs-8">2015/11/5</div>
+												</div>
+											</div>
+										</div></a> <a href="#" class="list-group-item"
+										onclick="loadYouTube('타이틀','설명', 'b3luWd_390o')"><div
+											class="row">
+											<div class="col-sm-4">
+												<img src="../image/red_queen.png" class="img-responsive">
+											</div>
+											<div class="col-sm-8">
+												<div class="row">IU(아이유) Red Queen (Feat. Zion.T)</div>
+												<div class="row">
+													<div class="col-xs-4">3:32</div>
+													<div class="col-xs-8">2015/11/5</div>
+												</div>
+											</div>
+										</div></a>
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" style="margin-bottom: -5px;">
+								<span class="panel-title" style="margin-top: 8px;"> <a
+									data-toggle="collapse" data-parent="#accordion"
+									href="#collapse2"> <img src="../image/arrow.png"
+										class="arrow img-responsive">M.C. the MAX! 신곡<span
+										class="label label-default label-as-badge">4</span>
+								</a>
+								</span> <a href="#" title="목록 재생"><span
+									class="glyphicon glyphicon-play-circle"></span></a>
+							</div>
+							<div id="collapse2" class="panel-collapse collapse">
+								<div class="list-group">
+									<a href="#" class="list-group-item">First item</a> <a href="#"
+										class="list-group-item">Second item</a> <a href="#"
+										class="list-group-item">Third item</a>
+
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" style="margin-bottom: -5px;">
+								<span class="panel-title" style="margin-top: 8px;"> <a
+									data-toggle="collapse" data-parent="#accordion"
+									href="#collapse3"> <img src="../image/arrow.png"
+										class="arrow img-responsive">김경호 신곡<span
+										class="label label-default label-as-badge">2</span>
+								</a>
+								</span> <a href="#" title="목록 재생"><span
+									class="glyphicon glyphicon-play-circle"></span></a>
+							</div>
+							<div id="collapse3" class="panel-collapse collapse">
+								<div class="list-group">
+									<a href="#" class="list-group-item">First item</a> <a href="#"
+										class="list-group-item">Second item</a> <a href="#"
+										class="list-group-item">Third item</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="col-md-8">
+				<section>
+					<header>
+						<h4 id="title">섹션의 헤더</h4>
+					</header>
+					<div class="embed-responsive embed-responsive-16by9"
+						style="margin-top: 10px;">
+						<div class="iframe-rwd">
+							<!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+							<div class="video" id="player"></div>
+						</div>
+					</div>
+					<footer>
+						<p class="text-info" id="description">섹션의 푸터</p>
+						<button onclick="downloadAll(['https://storage.googleapis.com/hbreeze4ani.appspot.com/videos/ko/b/b0003abko.wvm','https://storage.googleapis.com/hbreeze4ani.appspot.com/videos/ko/b/b0158aako.wvm'])">모두 다운로드</button>
+					</footer>
+				</section>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+	function downloadAll(urls) {
+		var link = document.createElement('a');
+		
+		link.style.display = 'none';
+		
+		document.body.appendChild(link);
+		
+		for (var i = 0; i < urls.length; i++) {
+			link.setAttribute('download', urls[i].substr(67));
+			link.setAttribute('href', urls[i]);
+			link.click();
+		}
+		
+		document.body.removeChild(link);
+	}
+	</script>
+</body>
+</html>

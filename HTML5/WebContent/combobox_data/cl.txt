@@ -1,0 +1,12 @@
+<option>성격에 맞는 카데고리를 선택해주세요.</option>
+<option>구강내과</option>
+<option>구강병리과</option>
+<option>구강악안면 방사선과</option>
+<option>구강악안면외과</option>
+<option>소아치과</option>
+<option>치과 일반</option>
+<option>치과교정과</option>
+<option>치과마취과</option>
+<option>치과보존과</option>
+<option>치과보철과</option>
+<option>치주과</option>

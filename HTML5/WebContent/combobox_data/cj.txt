@@ -1,0 +1,22 @@
+<option>성격에 맞는 카데고리를 선택해주세요.</option>
+<option>구강외과</option>
+<option>기타</option>
+<option>내과계 처치</option>
+<option>내시경 처치</option>
+<option>마취통증의학과</option>
+<option>방사선종양학과</option>
+<option>비뇨기과</option>
+<option>산부인과</option>
+<option>수혈관련</option>
+<option>신경외과</option>
+<option>안과</option>
+<option>외과계 처치</option>
+<option>이비인후과(처치/시술/수술)</option>
+<option>일반외과</option>
+<option>재활의학과</option>
+<option>정형외과</option>
+<option>척추 및 디스크</option>
+<option>피부미용성형</option>
+<option>핵의학과</option>
+<option>혈관 내 도관삽입</option>
+<option>흉부외과</option>

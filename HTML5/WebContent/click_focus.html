@@ -1,0 +1,47 @@
+<html>
+<head>
+
+<script src="../JavaScript/jquery-2.1.4.min.js"></script>
+<script type="text/javascript">
+	(function($){
+	$(document).on('click', '#navigation li', function() {
+		$('#navigation li').removeClass('selected');
+		$(this).addClass('selected');
+	});
+	/*
+	$('#navigation li').live('click', function() {
+		$('#navigation li').removeClass('selected');
+		$(this).addClass('selected');
+	})
+	*/
+	
+	})(jQuery)
+</script>
+<style type="text/css">
+#navigation li {
+	list-style: none;
+	float: left;
+	padding: 5px;
+}
+
+#navigation {
+	cursor: pointer;
+}
+
+#navigation .selected {
+	background-color: red;
+	color: white;
+}
+</style>
+</head>
+<body>
+	<ul id="navigation">
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>javascript</li>
+		<li class="selected">jQuery</li>
+		<li>PHP</li>
+		<li>mysql</li>
+	</ul>
+</body>
+</html>

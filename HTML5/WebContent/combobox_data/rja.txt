@@ -1,0 +1,14 @@
+<option>성격에 맞는 카데고리를 선택해주세요.</option>
+<option>검체검사</option>
+<option>국민건강보험공간 건강검진</option>
+<option>내과계 검사</option>
+<option>내시경 검사</option>
+<option>부인과</option>
+<option>비뇨기계 검사</option>
+<option>산과</option>
+<option>세포/조직검사</option>
+<option>안과</option>
+<option>영상의학과</option>
+<option>외과계 검사</option>
+<option>유전/분자진단검사</option>
+<option>핵의학 검사</option>

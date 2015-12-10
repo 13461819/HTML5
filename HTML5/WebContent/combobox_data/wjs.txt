@@ -1,0 +1,76 @@
+<option>성격에 맞는 카데고리를 선택해주세요.</option>
+<option>검체검사</option>
+<option>구강내과</option>
+<option>구강병리과</option>
+<option>구강악안면 방사선과</option>
+<option>구강악안면외과</option>
+<option>구강외과</option>
+<option>국민건강보험공간 건강검진</option>
+<option>근골격계</option>
+<option>기타 시술</option>
+<option>기타</option>
+<option>기타교육</option>
+<option>내과계 검사</option>
+<option>내과계 질병</option>
+<option>내과계 처치</option>
+<option>내시경 검사</option>
+<option>내시경 처치</option>
+<option>마취통증의학과</option>
+<option>미분류</option>
+<option>방사선종양학과</option>
+<option>부인과</option>
+<option>비뇨기계 검사</option>
+<option>비뇨기과</option>
+<option>비뇨기과</option>
+<option>산과</option>
+<option>산부인과</option>
+<option>산부인과</option>
+<option>서비스</option>
+<option>설문지</option>
+<option>세포/조직검사</option>
+<option>소아치과</option>
+<option>수혈관련</option>
+<option>식이교육</option>
+<option>신경외과</option>
+<option>신장내과</option>
+<option>안과</option>
+<option>안과</option>
+<option>안과</option>
+<option>암 관련정보</option>
+<option>영상의학과</option>
+<option>예방접종</option>
+<option>외과계 검사</option>
+<option>외과계 질병</option>
+<option>외과계 처치</option>
+<option>운동_물리치료</option>
+<option>원무안내</option>
+<option>유전/분자진단검사</option>
+<option>응급실 입퇴원교육</option>
+<option>이비인후과(질병)</option>
+<option>이비인후과(처치/시술/수술)</option>
+<option>일반외과</option>
+<option>일반외과</option>
+<option>입원 간호교육</option>
+<option>재활의학과</option>
+<option>정형외과</option>
+<option>종양 (암)</option>
+<option>척추 및 디스크</option>
+<option>척추 및 신경</option>
+<option>치과 일반</option>
+<option>치과교정과</option>
+<option>치과마취과</option>
+<option>치과보존과</option>
+<option>치과보철과</option>
+<option>치주과</option>
+<option>퇴원 간호교육</option>
+<option>투약설명</option>
+<option>피부미용성형</option>
+<option>피부미용성형</option>
+<option>하이차트QR</option>
+<option>핵의학 검사</option>
+<option>핵의학과</option>
+<option>혈관 내 도관삽입</option>
+<option>흉부외과</option>
+<option>Global</option>
+<option>HospitalCF</option>
+<option>M Promotion</option>

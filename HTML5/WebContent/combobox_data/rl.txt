@@ -1,0 +1,16 @@
+<option>성격에 맞는 카데고리를 선택해주세요.</option>
+<option>기타 시술</option>
+<option>기타교육</option>
+<option>미분류</option>
+<option>서비스</option>
+<option>설문지</option>
+<option>식이교육</option>
+<option>암 관련정보</option>
+<option>예방접종</option>
+<option>운동_물리치료</option>
+<option>원무안내</option>
+<option>투약설명</option>
+<option>하이차트QR</option>
+<option>Global</option>
+<option>HospitalCF</option>
+<option>M Promotion</option>
