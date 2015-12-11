@@ -1,5 +1,5 @@
 window.onload = function (){
-	$f("player", "../SWF/flowplayer-3.2.18.swf", 'http://localhost/barsandtone.flv');
+	//$f("player", "../SWF/flowplayer-3.2.18.swf", 'http://localhost/barsandtone.flv');
 }
 
 function playFlowPlayer() {

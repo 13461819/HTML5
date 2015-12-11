@@ -10,6 +10,7 @@
 <script src="../JavaScript/jquery-2.1.4.min.js"></script>
 <script src="../bootstrap/js/bootstrap.min.js"></script>
 <script src="../JavaScript/download.js"></script>
+<script src="../JavaScript/flowplayer-3.2.13.min.js"></script>
 <script type="text/javascript"></script>
 <script type="text/javascript">
 
@@ -259,7 +260,7 @@ $(window).resize(accordion_resize);
 						style="margin-top: 10px;">
 						<div class="iframe-rwd">
 							<!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-							<div class="video" id="player"></div>
+							<!-- <div class="video" id="player"></div> -->
 						</div>
 					</div>
 					<footer>
@@ -267,6 +268,10 @@ $(window).resize(accordion_resize);
 						<button id="download-btn"
 						data-files="https://storage.googleapis.com/hbreeze4ani.appspot.com/videos/ko/b/b0003abko.wvm https://storage.googleapis.com/hbreeze4ani.appspot.com/videos/ko/b/b0158aako.wvm">
 						        모두 다운로드</button>
+						<button onclick="loadYouTubePlayer()">나와라 유튜브</button>
+						<button onclick="loadFlowPlayer()">나와라 플로우플레이어</button>
+						<button onclick="createPlayerDiv()">player div 만들기</button>
+						<button onclick="removePlayerDiv()">player div 제거</button>
 					</footer>
 				</section>
 			</div>

@@ -45,6 +45,29 @@ function loadYouTube(title, description, youtube) {
     playerYT.setLoop(true);
 }
 
+function createPlayerDiv() {
+	var iframe_rwd = document.querySelector(".iframe-rwd");
+	var old_div_player = document.querySelector("#player");
+	if(old_div_player) return;
+	var new_div_player = document.createElement('div');
+	new_div_player.setAttribute('id', 'player');
+	new_div_player.setAttribute('class', 'video');
+	iframe_rwd.appendChild(new_div_player);
+}
+
+function removePlayerDiv() {
+	var iframe_rwd = document.querySelector(".iframe-rwd");
+	var old_div_player = document.querySelector("#player");
+	if(old_div_player)
+		iframe_rwd.removeChild(old_div_player);
+}
+
+function loadFlowPlayer() {
+	removePlayerDiv();
+	createPlayerDiv();
+	$f("player", "../SWF/flowplayer-3.2.18.swf", 'http://localhost/barsandtone.flv');
+}
+
 // 2. This code loads the IFrame Player API code asynchronously.
 var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
@@ -53,8 +76,9 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 // 3. This function creates an <iframe> (and YouTube player) 
 //    after the API code downloads.
-function onYouTubeIframeAPIReady() {
-  
+function loadYouTubePlayer() {
+	removePlayerDiv();
+	createPlayerDiv();
   playerYT = new YT.Player('player', {
       height: 720,
       width: 1280,
